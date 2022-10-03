@@ -13,7 +13,7 @@ const navbar =()=>{
    
                      </button>
                         <ul class="dropdown-menu dropdown-menu-end">
-                            <li><a class="dropdown-item" href="/"></a></li>
+                            
                             
                         </ul>
                 </div>
