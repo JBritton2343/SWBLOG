@@ -7,8 +7,8 @@ import { Demo } from "./views/demo";
 import { Single } from "./views/single";
 import injectContext from "./store/appContext";
 
-import { Navbar } from "./component/navbar";
-import { Footer } from "./component/footer";
+import { Navbar } from "./component/NavBar";
+import { Cards } from "./component/Cards"
 
 //create your first component
 const Layout = () => {
@@ -31,6 +31,8 @@ const Layout = () => {
 						<Route exact path="/single/:theid">
 							<Single />
 						</Route>
+						<Route exact path="/component/NavBar.jsx"><Navbar /></Route>
+						<Route exact path="/component/Cards.jsx"><Cards /></Route>
 						<Route>
 							<h1>Not found!</h1>
 						</Route>
